@@ -28,7 +28,7 @@ Microsoft COCO is large scale images with Common Objects in Context (COCO), whic
 datasets out there, with applications like object detection, segmentation, and image caption. The images in the dataset 
 are everyday objects captured from everyday scenes. COCO provides multi-object labeling, segmentation mask annotations, 
 image captioning, key-point detection and panoptic segmentation annotations with a total of 81 categories, making it a very 
-versatile and multi-purpose dataset. More concretely, the dataset contains 122,218 images and covers **80 common 
+versatile and multi-purpose dataset. More concretely, the dataset contains **122,218 images** and covers **80 common 
 categories** (class 81 is background), which is further divided into a **training set of 82,081 images** and a **validation set 
 of 40,137 images**. Since the ground truth annotations of test set are unavailable, we usually train our model on the training 
 datasets and evaluate on the validation set. <br />
