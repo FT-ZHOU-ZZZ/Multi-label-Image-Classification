@@ -11,7 +11,7 @@ object detection, target segmentation and other tasks, which contains four categ
 person, and can be subdivided into **20 classes**. For multi-label image classification, VOC 2007 dataset is divided into 
 **training (2,501)**, **validation (2,510)** and **testing (4,952)** sets. Following the previous work, we usually use the train and 
 validate set to train our model, and evaluate the classification performance on the test set.<br />
-See the [VOC2007 folder]() for more details!
+See the [VOC2007 folder](https://github.com/ZFT-CQU/Multi-label-Image-Classification/tree/master/Pascal-VOC2007) for more details!
 
 ### [Pascal VOC 2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/).
 ![avatar](Pascal-VOC2012/example.png)
@@ -20,7 +20,7 @@ See the [VOC2007 folder]() for more details!
  However, no ground truth labels are provided in the test set. Therefore, all the approaches have to be evaluated by 
  submitting the testing results to the PASCAL VOC Evaluation Server. We train our model on train set, and fine-tune on 
  validate set. Then, the result of test set is submitted to **[Evaluation Server](http://host.robots.ox.ac.uk:8080/)** for evaluation.<br />
-See the [VOC2012 folder]() for more details!
+See the [VOC2012 folder](https://github.com/ZFT-CQU/Multi-label-Image-Classification/tree/master/Pascal-VOC2012/) for more details!
 
 ### [Microsoft COCO](https://cocodataset.org/).
 ![avatar](MS-COCO/example.png)
@@ -32,7 +32,7 @@ versatile and multi-purpose dataset. More concretely, the dataset contains **122
 categories** (class 81 is background), which is further divided into a **training set of 82,081 images** and a **validation set 
 of 40,137 images**. Since the ground truth annotations of test set are unavailable, we usually train our model on the training 
 datasets and evaluate on the validation set. <br />
-See the [MS-COCO folder]() for more details!
+See the [MS-COCO folder](https://github.com/ZFT-CQU/Multi-label-Image-Classification/tree/master/MS-COCO) for more details!
 
 
 ## Tips
