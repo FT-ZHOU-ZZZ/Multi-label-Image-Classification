@@ -1,4 +1,4 @@
-# Pascal VOC 2007
+# Microsoft COCO
 
 ## Introduction
 Microsoft COCO is large scale images with Common Objects in Context (COCO), which is one of the most popular image 
